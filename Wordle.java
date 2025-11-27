@@ -35,7 +35,7 @@ public class Wordle {
                  }else if(containsChar(secret,c)){ 
                   resultRow[i] = 'Y';
                     } else{
-                      resultRow[i] = '.';//התיבה המתאימה לה מאותחלת לנקודה
+                      resultRow[i] = '_';//התיבה המתאימה לה מאותחלת לנקודה
                      }
         }
 		
